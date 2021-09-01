@@ -2,9 +2,22 @@
 
 A reactive ecommerce music store built with HTML5, SASS and JavaScript. 
 
+# Features
+- responsive site
+- sticky cart that stays at the bottom of the screen on mobile, to allow easier shopping experience
+- 'Save for later' and 'Remove' become respectively a button and an X on mobile view. 
+- Nav on mobile is simplified with logo of the company, account icon and search icon. 
+- Footers are simplified on mobile and the order of the components is changed. 
+
 ## View Demo
 
 [OnlineMusikk](https://online-musikk.netlify.app/)
+
+## Desktop/Mobile Versions
+
+![Desktop](https://github.com/enoralecuyer/online-musikk/blob/master/images/desktop.png)
+![Mobile](https://github.com/enoralecuyer/online-musikk/blob/master/images/mobile.png)
+
 
 ## Built With
 
