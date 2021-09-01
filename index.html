@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>OnlineMusikk</title>
+  </head>
+  <body>
+    <!-- nav -->
+    <nav>
+      <div class="topnav" id="myTopnav">
+        <a href="/">
+          <img
+            src="./images/logo.png"
+            alt="OnlineMusikk logo"
+            class="onlinemusikk-logo"
+        /></a>
+        <div class="nav-flex">
+          <div>
+            <a href="#"
+              >Products <img src="./images/arrow.svg" alt="arrow" class="icons"
+            /></a>
+            <a href="#"
+              >Albums <img src="./images/arrow.svg" alt="arrow" class="icons"
+            /></a>
+            <a href="#"
+              >Songs <img src="./images/arrow.svg" alt="arrow" class="icons"
+            /></a>
+            <a href="#"
+              >Pricing <img src="./images/arrow.svg" alt="arrow" class="icons"
+            /></a>
+          </div>
+          <div class="nav-flex">
+            <a href="#"
+              ><i class="material-icons icons">perm_identity</i>Account</a
+            >
+            <a href="#"
+              ><i class="material-icons icons">shopping_cart</i
+              ><span class="notification"> 1 </span>Cart</a
+            >
+            <a
+              ><form class="search" action="#">
+                <input type="text" placeholder="Search" name="search" />
+                <button type="submit">
+                  <i class="material-icons icons rotate">search</i>
+                </button>
+              </form></a
+            >
+          </div>
+        </div>
+        <!-- what is visible on mobile screens -->
+        <div class="nav-flex">
+          <a href="#" class="icon" onclick="nonFunctional()"
+            ><i class="fa fa-ellipsis-h"></i
+          ></a>
+          <a href="#" class="icon-mobile"
+            ><img class="onlinemusikk-mobile" src="./images/logo.png" alt="logo"
+          /></a>
+          <div>
+            <a href="#" class="icon-mobile"
+              ><img class="logo-mobile" src="./images/look.png" alt="logo"
+            /></a>
+            <a href="#" class="icon-mobile"
+              ><img class="logo-mobile" src="./images/user.png" alt="logo"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- my cart -->
+    <article class="body-mt">
+      <section class="my-cart">
+        <div class="body-one my-cart">
+          <h1>My Cart</h1>
+          <div class="single-item">
+            <div class="album">
+              <div>
+                <img
+                  src="./images/anti.png"
+                  alt="cover of Anti"
+                />
+              </div>
+              <ul>
+                <li class="bold-black">Anti</li>
+                <li><a href="#">Rihanna</a></li>
+              </ul>
+            </div>
+            <div>
+              <a href="#" class="mobile"
+                ><i class="material-icons icons clear">clear</i></a
+              >
+            </div>
+            <div>
+              <p class="bold-grey desktop">
+                <img
+                  src="./images/chart.png"
+                  alt="Chart icon"
+                  class="icons"
+                />Lyrics
+              </p>
+            </div>
+            <div>
+              <p class="bold-black">$3.00</p>
+            </div>
+          </div>
+          <p class="remove-save-for-later">
+            <a href="#" class="desktop">Remove</a>
+            <a href="#" class="mobile"
+              ><i class="material-icons icons clear"></i
+            ></a>
+            <a href="#" class="desktop">| Save for later</a>
+            <a href="#" class="mobile"
+              ><button class="add-to-cart">save for later</button></a
+            >
+          </p>
+          <hr />
+          <div class="single-item">
+            <div class="album">
+              <div>
+                <img
+                  src="./images/4.jpg"
+                  alt="cover of 4"
+                />
+              </div>
+              <ul>
+                <li class="bold-black">4</li>
+                <li><a href="#">Beyoncé</a></li>
+              </ul>
+            </div>
+            <div>
+              <a href="#" class="mobile"
+                ><i class="material-icons icons clear">clear</i></a
+              >
+            </div>
+            <div>
+              <p class="bold-grey">
+                <img
+                  src="./images/chart.png"
+                  alt="Chart icon"
+                  class="icons"
+                />Lyrics
+              </p>
+            </div>
+            <div>
+              <p class="bold-black">$3.00</p>
+            </div>
+          </div>
+          <p class="remove-save-for-later">
+            <a href="#" class="desktop">Remove</a>
+            <a href="#" class="mobile"
+              ><i class="material-icons icons clear"></i
+            ></a>
+            <a href="#" class="desktop">| Save for later</a>
+            <a href="#" class="mobile"
+              ><button class="add-to-cart">save for later</button></a
+            >
+          </p>
+          <div>
+            <hr />
+            <p class="continue-shopping">
+              <i class="arrow left"></i>Continue shopping
+            </p>
+          </div>
+        </div>
+        <!-- saved for later -->
+        <div class="body-three saved-for-later">
+          <h2>Saved for later</h2>
+          <div class="single-item save">
+            <div class="album">
+              <div>
+                <img
+                  src="./images/blackpinkinyourarea.png"
+                  alt="cover of blackpink"
+                />
+              </div>
+              <ul>
+                <li class="bold-black">Blackpink</li>
+                <li><a href="">BLACKPINK</a></li>
+              </ul>
+            </div>
+            <div>
+              <a href="#" class="mobile"
+                ><i class="material-icons icons clear">clear</i></a
+              >
+            </div>
+            <div>
+              <p class="bold-grey">
+                <img
+                  src="./images/chart.png"
+                  alt="Chart icon"
+                  class="icons"
+                />Lyrics
+            </div>
+            <div class="album">
+              <div>
+                <p class="remove-save-for-later">
+                  <a href="#" class="desktop">Remove</a>
+                  <a href="#" class="mobile"
+                    ><i class="material-icons icons clear"></i
+                  ></a>
+                </p>
+              </div>
+              <div>
+                <button class="add-to-cart">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="single-item save">
+            <div class="album">
+              <div>
+                <img
+                  src="./images/deux.jpg"
+                  alt="cover of D'eux"
+                />
+              </div>
+              <ul>
+                <li class="bold-black">D'eux</li>
+                <li><a href="">Céline Dion</a></li>
+              </ul>
+            </div>
+            <div>
+              <a href="#" class="mobile"
+                ><i class="material-icons icons clear">clear</i></a
+              >
+            </div>
+            <div>
+              <p class="bold-grey">
+                <img
+                  src="./images/chart.png"
+                  alt="Chart icon"
+                  class="icons"
+                />Lyrics
+              </p>
+            </div>
+            <div class="album">
+              <div>
+                <p class="remove-save-for-later">
+                  <a href="#" class="desktop">Remove</a>
+                  <a href="#" class="mobile"
+                    ><i class="material-icons icons clear"></i
+                  ></a>
+                </p>
+              </div>
+              <div>
+                <button class="add-to-cart">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="single-item save">
+            <div class="album">
+              <div>
+                <img
+                  src="./images/harvest.jpg"
+                  alt="cover of Harvest"
+                />
+              </div>
+              <ul>
+                <li class="bold-black">Harvest</li>
+                <li><a href="">Neil Young</a></li>
+              </ul>
+            </div>
+            <div>
+              <a href="#" class="mobile"
+                ><i class="material-icons icons clear">clear</i></a
+              >
+            </div>
+            <div>
+              <p class="bold-grey">
+                <img
+                  src="./images/chart.png"
+                  alt="Chart icon"
+                  class="icons"
+                />Lyrics
+              </p>
+            </div>
+            <div class="album">
+              <div>
+                <p class="remove-save-for-later">
+                  <a href="#" class="desktop">Remove</a>
+                  <a href="#" class="mobile"
+                    ><i class="material-icons icons clear"></i
+                  ></a>
+                </p>
+              </div>
+              <div>
+                <button class="add-to-cart">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+          <hr />
+        </div>
+      </section>
+      <!-- order summary -->
+      <div class="order-summary body-two">
+        <h1>Order Summary</h1>
+        <ul>
+          <li class="bold-black">Albums in your account</li>
+          <li class="bold-grey">2</li>
+        </ul>
+        <ul class="promo-code">
+          <li class="bold-black">Promo Code</li>
+          <li class="bold-black">
+            <a href="#"><i class="arrow down"></i></a>
+          </li>
+        </ul>
+        <hr />
+        <ul>
+          <li class="bold-black">Subtotal</li>
+          <li class="bold-grey">$6.00</li>
+        </ul>
+        <ul>
+          <li class="bold-black">Tax</li>
+          <li class="bold-grey">$1.81</li>
+        </ul>
+        <hr />
+        <ul>
+          <li class="bold-black">TOTAL</li>
+          <li class="bold-black">$7.81</li>
+        </ul>
+        <hr />
+        <ul>
+          <li class="bold-black">Payment Method</li>
+        </ul>
+        <ul>
+          <li class="bold-black">
+            American Express<span href="#" class="normal-grey"> - 1234</span>
+          </li>
+          <li class="change">Change</li>
+        </ul>
+        <hr />
+        <p class="normal-grey sales">All sales are final.</p>
+        <button class="place-order">place order</button>
+        <div class="terms">
+          <p>
+            By placing your order, you agree to the
+            <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.
+          </p>
+        </div>
+      </div>
+    </article>
+    <!-- grey footer -->
+    <article class="footer">
+      <ul class="footer-three">
+        <li><h4>Products</h4></li>
+        <li><a href="#">LyricsMix</a></li>
+        <li><a href="#">BandMix</a></li>
+        <li><a href="#">PlaybackMix</a></li>
+        <li><a href="#">PlayerMix</a></li>
+      </ul>
+      <ul class="footer-four">
+        <li><h4>Company</h4></li>
+        <li><a href="#">Our Story</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Locations</a></li>
+      </ul>
+      <ul class="footer-five">
+        <li><h4>Store</h4></li>
+        <li><a href="#">Buy Songs</a></li>
+        <li><a href="#">Free Songs</a></li>
+        <li><a href="#">Buy Lyrics</a></li>
+        <li><a href="#">Free Lyrics</a></li>
+      </ul>
+      <ul class="footer-six">
+        <li><h4>Account</h4></li>
+        <li><a href="#">View cart</a></li>
+        <li><a href="#">My Profile</a></li>
+        <li><a href="#">Library</a></li>
+        <li><a href="#">My Products</a></li>
+      </ul>
+      <div class="media">
+        <div class="footer-one">
+          <h4 class="newsletter">Subscribe to our Newsletter</h4>
+          <form class="example" action="example.php">
+            <input
+              type="text"
+              placeholder="Email Address"
+              name="email address"
+            />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+        <div class="social footer-seven">
+          <div>
+            <a href="#"><img src="./images/facebook.svg" alt="facebook" /></a>
+          </div>
+          <div>
+            <a href="#"><img src="./images/twitter.svg" alt="twitter" /></a>
+          </div>
+          <div>
+            <a href="#"><img src="./images/instagram.svg" alt="instagram" /></a>
+          </div>
+          <div>
+            <a href="#"><img src="./images/youtube.svg" alt="youtube" /></a>
+          </div>
+          <div>
+            <button type="submit" class="facebook-likes-button">
+              <img src="./images/facebook_likes.svg" alt="facebook likes" />
+            </button>
+          </div>
+          <div>
+            <button type="submit" class="twitter-follow-button">
+              <img src="./images/twitter_follow.svg" alt="twitter follow" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </article>
+    <!-- skinny footer -->
+    <footer>
+      <div class="skinny-footer">
+        <div class="bo one">
+          &copy;
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          OnlineMusikk. All Rights Reserved. 
+        </div>
+        <div class="bo two"> 
+          <a href="#" class="desktop">Terms & Privacy Policy | FAQ | Contact</a>
+          <a href="#" class="mobile">Terms | FAQ | Contact</a>
+        </div>
+      </div>
+    </footer>
+    <!-- sticky footer -->
+    <article>
+      <a href="#" class="mobile">
+        <div class="sticky-footer">
+          <ul class="sticky-one">
+            <li class="bold-black">TOTAL</li>
+            <li class="bold-black">$7.81</li>
+          </ul>
+          <button class="place-order box">place order</button>
+        </div>
+      </a>
+    </article>
+
+    <!-- JS script to make the nav responsive -->
+    <script>
+      function multitracksNav() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html>
