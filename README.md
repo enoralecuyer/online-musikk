@@ -15,7 +15,7 @@ A reactive ecommerce music store built with HTML5, SASS and JavaScript.
 
 ## Deploy Status Badge
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c1d175f8-e43b-4bac-ab01-3a083bd48211/deploy-status)](https://app.netlify.com/sites/store-resort/deploys)
+[![Netlify Status]([![Netlify Status](https://api.netlify.com/api/v1/badges/7a36bc90-7235-4c6c-96f8-12190f499488/deploy-status)](https://app.netlify.com/sites/online-musikk/deploys))
 
 ## Author
 
