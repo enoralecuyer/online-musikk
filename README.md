@@ -1,6 +1,6 @@
 # OnlineMusikk
 
-A responsive music store built with HTML5, SASS and JavaScript. 
+A responsive shopping cart interface for a music store, built with HTML5, SASS and JavaScript.
 
 # Features
 - Fully responsive.
